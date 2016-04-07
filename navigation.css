@@ -1,0 +1,25 @@
+ul {
+	list-style: none;
+}
+
+ul li {
+	display: inline-block;
+}
+
+a {
+	display: inline-block;
+	padding: 1rem;
+	text-decoration: none;
+	background-color: slategrey;
+	color:white;
+}
+
+a:hover {
+	background-color: firebrick;
+	color: black;
+}
+
+a:active {
+	transition: trasnform 1s;
+	transform: scaleX(1.25);
+}
